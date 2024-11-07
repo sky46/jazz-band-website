@@ -1,0 +1,50 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-image: url('radiohead.jpg');
+  background-size: 500px;
+}
+
+@keyframes spin {
+  25% {
+    rotate: 90deg;
+  }
+  25% {
+    rotate: 90deg;
+  }
+  50% {
+    rotate: 180deg;
+  }
+  75% {
+    rotate: 270deg;
+  }
+  100% {
+    rotate: 360deg;
+  }
+}
+h1 {
+  color: maroon;
+}
+
+.winter-concert {
+  background-color: cornflowerblue;
+  animation-name: spin;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+.members-link {
+  display: inline-block;
+  padding: 5px 5px;
+  border-radius: 1px;
+  border: 2px green;
+  background-color: lime;
+}
+.members-link:hover {
+  background-color: yellowgreen;
+  transform: scale(1.2);
+}
+
+p, h1, h2, a {
+  background-color: rgba(255,150,150,0.5);
+}
